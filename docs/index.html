@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrimeInvest – Ваш шлях до фінансової свободи</title>
+  <meta name="description" content="PrimeInvest – надійна платформа для інвестування. Допомагаємо досягти фінансової свободи швидко та зручно.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.19/build/css/intlTelInput.min.css"/>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero__content">
+    <h1 class="hero__title">PrimeInvest</h1>
+    <p class="hero__subtitle">Ваш шлях до фінансової свободи</p>
+    <div class="hero__timer" id="hero-timer">15:00</div>
+    <button class="hero__cta" id="hero-cta">Почати зараз</button>
+  </div>
+</section>
+
+<!-- Sticky CTA -->
+<div class="sticky-cta" id="sticky-cta">
+  <button>Почати зараз</button>
+</div>
+
+<!-- Reviews Section -->
+<section class="reviews">
+  <h2 class="reviews__title">Відгуки наших клієнтів</h2>
+  <div class="reviews-container">
+    <div class="review">
+      <img src="images/user1.jpg" alt="Іван Іванов" loading="lazy">
+      <h4>Іван Іванов</h4>
+      <p>Відмінна платформа, рекомендую!</p>
+    </div>
+    <div class="review">
+      <img src="images/user2.jpg" alt="Марія Петрова" loading="lazy">
+      <h4>Марія Петрова</h4>
+      <p>Все швидко та зручно, дуже задоволена.</p>
+    </div>
+    <div class="review">
+      <img src="images/user3.jpg" alt="Олексій Сидоров" loading="lazy">
+      <h4>Олексій Сидоров</h4>
+      <p>Професійний сервіс і гарна підтримка.</p>
+    </div>
+    <div class="review">
+      <img src="images/user4.jpg" alt="Анастасія Коваль" loading="lazy">
+      <h4>Анастасія Коваль</h4>
+      <p>Дуже задоволена інтерфейсом та швидкістю роботи.</p>
+    </div>
+    <div class="review">
+      <img src="images/user5.jpg" alt="Сергій Литвин" loading="lazy">
+      <h4>Сергій Литвин</h4>
+      <p>Зручно і просто інвестувати, рекомендую всім!</p>
+    </div>
+  </div>
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+  <div class="dots"></div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq">
+  <h2>Часті питання</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">Питання 1</button>
+    <div class="faq-answer">
+      <h3>Відповідь:</h3>
+      <p>Відповідь на питання 1.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Питання 2</button>
+    <div class="faq-answer">
+      <h3>Відповідь:</h3>
+      <p>Відповідь на питання 2.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Питання 3</button>
+    <div class="faq-answer">
+      <h3>Відповідь:</h3>
+      <p>Відповідь на питання 3.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Питання 4</button>
+    <div class="faq-answer">
+      <h3>Відповідь:</h3>
+      <p>Відповідь на питання 4.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Питання 5</button>
+    <div class="faq-answer">
+      <h3>Відповідь:</h3>
+      <p>Відповідь на питання 5.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Питання 6</button>
+    <div class="faq-answer">
+      <h3>Відповідь:</h3>
+      <p>Відповідь на питання 6.</p>
+    </div>
+  </div>
+  <div class="faq-item">
+    <button class="faq-question">Питання 7</button>
+    <div class="faq-answer">
+      <h3>Відповідь:</h3>
+      <p>Відповідь на питання 7.</p>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about">
+  <h2 class="about__title">Про нас</h2>
+  <img src="images/about.jpg" alt="Про нас" class="about__image" loading="lazy">
+  <div class="about__text">
+    <p>Ми — команда професіоналів у сфері фінансів та інвестицій. Наша мета — допомогти кожному досягти фінансової свободи, надаючи зрозумілі та надійні інструменти для інвестування. Ми працюємо прозоро та завжди дбаємо про наших клієнтів.</p>
+    <p>Наша компанія заснована на принципах чесності та інновацій, ми постійно вдосконалюємо наші сервіси та підтримуємо наших користувачів на кожному етапі інвестиційного шляху.</p>
+  </div>
+</section>
+
+<!-- Lead Form Section -->
+<section class="lead-form">
+  <h2>Заявка на PrimeInvest</h2>
+  <form id="multi-step-form">
+    <div class="step step-1 active">
+      <input type="text" placeholder="Ім'я" required>
+      <input type="email" placeholder="Email" required>
+      <button type="button" class="form-next">Далі</button>
+    </div>
+
+    <div class="step step-2">
+      <input type="tel" id="phone" placeholder="Телефон" required style="display: block; margin-bottom: 10px;">
+      <label style="display: block; margin-bottom: 15px;">
+        <input type="checkbox" id="agree" required> Згоден на обробку даних
+      </label>
+      <button type="submit" style="display: block; margin: 0 auto;">Відправити</button>
+    </div>
+  </form>
+</section>
+
+<!-- Modal -->
+<div class="modal" id="success-modal">
+  <div class="modal-content">
+    <p></p>
+    <button id="close-modal">Закрити</button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.19/build/js/intlTelInput.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.19/build/js/utils.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
