@@ -18,14 +18,14 @@
 ## Як запустити
 1. Клонуйте репозиторій:
    ```bash
-   git clone https://github.com/yourusername/landing-multi-step-form.git
+    git clone https://github.com/yourusername/landing-multi-step-form.git   
 2. Перейдіть у папку проекту:
     cd landing-multi-step-form
 3. Відкрийте index.html у браузері.
     Не потрібні Node.js, збірники чи інші залежності – чистий HTML/CSS/JS.
 
 ## Live Demo
-
+    [(https://oleg-frontend.github.io/landing-multi-step-form/)]
 
 ## Структура проекту
 landing-multi-step-form/
